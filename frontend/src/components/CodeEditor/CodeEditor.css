@@ -1,0 +1,91 @@
+.editor-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 15px;
+}
+
+.editor-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.run-button {
+  padding: 10px 20px;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.run-button.disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.clear-button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #e5e7eb;
+  border-radius: 6px;
+  color: #333333;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.editor-output-wrapper {
+  display: flex;
+  gap: 15px;
+  flex: 1;
+  min-height: 0;
+}
+
+.code-editor,
+.code-output {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.section-heading {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #333333;
+  font-weight: 600;
+}
+
+.editor-textarea {
+  flex: 1;
+  width: 100%;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 14px;
+  font-family: Fira Code, Monaco, Consolas, monospace;
+  line-height: 1.5;
+  resize: none;
+  outline: none;
+}
+
+.output-display {
+  flex: 1;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 14px;
+  font-family: Fira Code, Monaco, Consolas, monospace;
+  line-height: 1.5;
+  color: #111827;
+  white-space: pre-wrap;
+  overflow: auto;
+}
