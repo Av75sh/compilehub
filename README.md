@@ -1,6 +1,6 @@
 # 🚀 CompileHub - Online Code Editor
 
-An intuitive and powerful online code editor that supports multiple programming languages with real-time compilation and execution. Built with modern web technologies for a seamless coding experience.
+CompileHub an online code editor that’s simple, powerful, and easy to use. It lets users write and run code in multiple languages like C, C++, Java, and Python — all in real time. The platform is designed with modern web technologies to deliver a smooth, responsive, and beginner-friendly coding experience right in the browser.
 
 ---
 
@@ -13,6 +13,19 @@ An intuitive and powerful online code editor that supports multiple programming 
 - **Error Handling**: Comprehensive error reporting and debugging 
 
 ---
+
+## Reference Screenshots
+
+Code:  
+![Hero Section](/frontend/images/1.png)
+
+
+Compiler:  
+![Services Grid](/frontend/images/2.png)
+
+Login:  
+![Team Carousel](/frontend/images/3.png)
+
 
 ## 🛠️ Tech Stack
 
