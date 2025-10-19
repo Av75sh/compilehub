@@ -1,12 +1,14 @@
 # 🚀 CompileHub - Online Code Editor
 
-CompileHub an online code editor that’s simple, powerful, and easy to use. It lets users write and run code in multiple languages like C, C++, Java, and Python — all in real time. The platform is designed with modern web technologies to deliver a smooth, responsive, and beginner-friendly coding experience right in the browser.
+CompileHub is an intelligent, full-stack online code editor that enables users to write, compile, and execute code in multiple programming languages — all directly in the browser.
+It combines modern web technologies with LLM-powered AI assistance to deliver a seamless, responsive, and beginner-friendly coding experience.
 
 ---
 
 ## ✨ Features
 
-- **Multi-Language Support**: C, C++, Java, Python  
+- **Multi-Language Support**: C, C++, Java, Python
+- AI Code Assistant (LLM Integration) – Suggests fixes, explains compiler errors, and generates code snippets using the OpenAI GPT-5 API
 - **Real-Time Code Compilation**: Execute code instantly in the browser  
 - **User Authentication**: Secure user registration and login system  
 - **Clean UI/UX**: Modern, responsive interface with dark theme editor  
@@ -33,7 +35,8 @@ Login:
 - Node.js – Runtime environment  
 - Express.js – Web framework  
 - MongoDB – NoSQL database  
-- Mongoose – for MongoDB  
+- Mongoose – for MongoDB
+- OpenAI GPT-5 API – LLM integration for AI-assisted coding
 - bcrypt – Password hashing  
 - express-session – Session management  
 - connect-mongo – MongoDB session store  
