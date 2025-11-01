@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://compilehub-1.onrender.com/';
+const API_BASE_URL = 'https://compilehub-1.onrender.com/api';
 
 export const checkAuthStatus = async () => {
   try {
@@ -89,7 +89,7 @@ export const compileCode = async (code, language) => {
     console.error('API Error:', error);
     return {
       success: false,
-      error: 'Connection Error: Unable to connect to server.\nMake sure your backend is running on http://localhost:5000'
+      error: 'Connection Error: Unable to connect to server.\nPlease try again later.'
     };
   }
 };
